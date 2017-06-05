@@ -11,9 +11,9 @@ permalink: /projects/
 # All my projects
 Following are projects started by me. 
 
-## NPL project
-* Started: 2004-present
-* Website: [www.nplproject.com](http://www.nplproject.com)
+## DPS/DAS project
+* Started: 2017.2.8-present
+* Website: [www.nexlogitech.co.kr](http://www.nexlogitech.co.kr)
    * NPL Code Wiki
    * NPL language service and debugger
 
