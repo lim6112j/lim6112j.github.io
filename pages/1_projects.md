@@ -30,5 +30,5 @@ In warehouse, Logistics efficiency depends on the time spent picking, sorting it
 * Website: [www.s1.co.kr](http://www.s1.co.kr)
    * building total control on 3D modeling with connecting all the sensors .
     
-ParaEngine is a 3d distributed game engine I wrote with C++/NPL. It has become the low-level code framework for all my other projects since 2005. 
+ 
 
