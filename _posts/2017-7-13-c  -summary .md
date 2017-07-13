@@ -29,3 +29,11 @@ int main() {
 ```
 ## Variables
 Variables are nothing but **reserved memory locations** to store values. This means that when you create a variable you reserve some space in memory. The sizes of variables might be different from those shown in the above table, depending on the compiler and the computer you are using.
+
+## Variable Type
+Variable Type determines the **size and layout of the variable's memory**; the **range of values** that can be stored within that memory; and **the set of operations** that can be applied to the variable.
+
+## Variable Initialize
+For definition without an initializer: variables with static storage duration are implicitly initialized with NULL (all bytes have the value 0); the initial value of all other variables is undefined.
+
+## Variable definition VS Declaration
