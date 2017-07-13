@@ -16,13 +16,14 @@ This is actual C++ compiler, which will be used to compile your source code into
 Most C++ compilers don't care what extension you give your source code, but if you don't specify otherwise, many will use .cpp by default
 
 Most frequently used and free available compiler is GNU C/C++ compiler, otherwise you can have compilers either from HP or Solaris if you have respective Operating Systems.
+```c++
+#include <iostream>
+using namespace std;
 
-    #include <iostream>
-    using namespace std;
+// main() is where program execution begins.
 
-    // main() is where program execution begins.
-
-    int main() {
-       cout << "Hello World"; // prints Hello World
-       return 0;
-    }
+int main() {
+   cout << "Hello World"; // prints Hello World
+   return 0;
+}
+```
