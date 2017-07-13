@@ -28,4 +28,4 @@ int main() {
 }
 ```
 ## Variables
-Variables are nothing but **reserved memory locations** to store values. This means that when you create a variable you reserve some space in memory.
+Variables are nothing but **reserved memory locations** to store values. This means that when you create a variable you reserve some space in memory. The sizes of variables might be different from those shown in the above table, depending on the compiler and the computer you are using.
