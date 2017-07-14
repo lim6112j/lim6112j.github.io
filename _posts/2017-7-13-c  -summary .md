@@ -37,3 +37,13 @@ Variable Type determines the **size and layout of the variable's memory**; the *
 For definition without an initializer: variables with static storage duration are implicitly initialized with NULL (all bytes have the value 0); the initial value of all other variables is undefined.
 
 ## Variable definition VS Declaration
+## C++ References vs Pointers
+`A reference variable is an alias, that is, another name for an already existing variable. Once a reference is initialized with a variable, either the variable name or the reference name may be used to refer to the variable.`
+
+References are often confused with pointers but three major differences between references and pointers are:
+
+You cannot have NULL references. You must always be able to assume that a reference is connected to a legitimate piece of storage.
+
+Once a reference is initialized to an object, it cannot be changed to refer to another object. Pointers can be pointed to another object at any time.
+
+A reference must be initialized when it is created. Pointers can be initialized at any time.
