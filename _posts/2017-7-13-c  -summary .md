@@ -47,7 +47,9 @@ You cannot have NULL references. You must always be able to assume that a refere
 Once a reference is initialized to an object, it cannot be changed to refer to another object. Pointers can be pointed to another object at any time.
 
 A reference must be initialized when it is created. Pointers can be initialized at any time.
-
+```c++
+const Type& is equivalent to Type const&?
+```
 ## Data Encapsulation VS Data Abstraction
 Data encapsulation is a mechanism of bundling the data, and the functions that use them and data abstraction is a mechanism of exposing only the interfaces and hiding the implementation details from the user.
 
