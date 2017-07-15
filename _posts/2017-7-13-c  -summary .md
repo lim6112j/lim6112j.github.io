@@ -47,3 +47,17 @@ You cannot have NULL references. You must always be able to assume that a refere
 Once a reference is initialized to an object, it cannot be changed to refer to another object. Pointers can be pointed to another object at any time.
 
 A reference must be initialized when it is created. Pointers can be initialized at any time.
+
+## Data Encapsulation VS Data Abstraction
+Data encapsulation is a mechanism of bundling the data, and the functions that use them and data abstraction is a mechanism of exposing only the interfaces and hiding the implementation details from the user.
+
+## Abstract Class
+A class is made abstract by declaring **at least one** of its functions as pure virtual function. A pure virtual function is specified by placing "= 0" in its declaration as follows:
+
+## c++ template
+A template is a blueprint or formula for creating a generic class or a function. 
+```c++
+template <class type> ret-type func-name(parameter list) {
+   // body of function
+} 
+```
