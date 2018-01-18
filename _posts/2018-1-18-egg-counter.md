@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-categories: development
+categories: Development
 ---
-## Title
+## egg counter on conveyor with python, opencv
 text
