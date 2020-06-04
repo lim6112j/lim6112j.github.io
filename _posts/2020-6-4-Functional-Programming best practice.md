@@ -69,3 +69,9 @@ export class Failure extends Try {
   }
 }
 ```
+## R.pipe like function run
+```
+const run = (...functions) => (initial) => {
+  return functions.reduce((prevResult, fn) => fn(prevResult), initial)
+}
+```
