@@ -6,6 +6,7 @@ categories: Functional Programming
 ## How to use Either Monad
 
 * imperative code
+
 ```
 //imperative
 //Returns error or price including tax 
