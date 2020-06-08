@@ -13,4 +13,5 @@ categories: blockchain
 6. Joo send an pay 1 coin, updated state, where the balances are now {Joo: 9, Ben: 1}. For an update to be valid, it must conform to the update rules.
 7. they makes several transactions and finished payments, they submit the final state of the channel to a smart contract called the 'adjudicator'
 8. once the outcome is finalized, the adjudicator sends it to another contract called the asset holder, which releases coins back to Joo and Ben accordingly
-[diagram](blockchain state channel.png)
+
+![diagram](./blockchain state channel.png)
