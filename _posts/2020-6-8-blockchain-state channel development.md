@@ -14,4 +14,4 @@ categories: blockchain
 7. they makes several transactions and finished payments, they submit the final state of the channel to a smart contract called the 'adjudicator'
 8. once the outcome is finalized, the adjudicator sends it to another contract called the asset holder, which releases coins back to Joo and Ben accordingly
 
-![diagram](./blockchain state channel.png)
+![diagram](/static/img/blockchain state channel.png)
