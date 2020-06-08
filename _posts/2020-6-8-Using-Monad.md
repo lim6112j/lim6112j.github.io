@@ -53,6 +53,7 @@ showTotalPrice(chips)  //Error: discount cant be applied for items priced below 
 ```
 
 * Remove Exception with Monad : Either 
+
 ```
 import {Either} from 'ramda-fantasy';
 import * as R from 'ramda';
