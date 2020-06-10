@@ -15,3 +15,12 @@ categories: blockchain
 8. once the outcome is finalized, the adjudicator sends it to another contract called the asset holder, which releases coins back to Joo and Ben accordingly
 
 ![diagram](/static/img/blockchain state channel.png)
+
+* Difficulty of state channel - one of participants might block or go offline, and small but residual cost
+1. channel advances and ends in a finite time
+2. channel closes in latest state
+
+therefore, we must define
+1. how to advance the state
+2. what to do if co-party goes offline
+3. how to finalize the outcome on-chain
