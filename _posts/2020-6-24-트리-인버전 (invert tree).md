@@ -30,9 +30,24 @@ class TreeNode {
 }
  
 function invertTree(root: TreeNode | null): TreeNode | null {
-  if(root === null) {return null}
-  return new TreeNode(root.val, invertTree(root.right), invertTree(root.left))
+ // fill here
 };
 const aTree = new TreeNode(4, new TreeNode(2, new TreeNode(1), new TreeNode(3)), new TreeNode(7, new TreeNode(6), new TreeNode(9)))
 console.log(invertTree(aTree))
+```
+
+
+
+
+
+
+
+
+* solution
+
+```
+function invertTree(root: TreeNode | null): TreeNode | null {
+  if(root === null) {return null}
+  return new TreeNode(root.val, invertTree(root.right), invertTree(root.left))
+};
 ```
