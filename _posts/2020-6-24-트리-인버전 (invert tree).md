@@ -3,6 +3,10 @@ layout: post
 comments: true
 categories: quiz
 ---
+
+* content
+{:toc}
+
 ## Invert Tree
 
 ```
@@ -43,7 +47,7 @@ console.log(invertTree(aTree))
 
 
 
-* solution
+## solution
 
 ```
 function invertTree(root: TreeNode | null): TreeNode | null {
